@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 1</title>
+    <script src="main.js"></script>
+</head>
+
+<style>
+    span {
+  text-decoration: underline;
+}
+</style>
+
+
+<body>
+    <h1>Javascript Web Output #1</h1>
+    
+	<label>Insert any number:</label>
+	<input type="text" id="numberInput">
+	<button onclick="pushNumber()">Insert</button>
+    <button onclick="deleteNumber()">Clear</button>
+	
+	<p id="warning"></p>
+<fieldset>
+    <legend>Inserted Numbers</legend>
+    <table>
+		<thead>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+                <th></th>
+			</tr>
+		</thead>
+		<tbody id="numberTable"></tbody>
+	</table>
+
+	
+	<p id="total"></p>
+    <button onclick="clearNumbers()">Clear Items</button>
+	<button onclick="Total()">Get Total</button>
+    
+</fieldset>
+</body>
